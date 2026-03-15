@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 import productRouter from './router/productRouter.js'
 import { connectDB } from "./config/db.js";
+import { errorHanndler, notFound } from "./middleware/errorMiddleWare.js";
 
 
 connectDB();
@@ -16,7 +17,8 @@ app.use((req,res,next)=>{
   res.status(404).json({ message: 'Not Found' });
 });
 
-
+app.use(notFound)
+app.use(errorHanndler)
 
 
 export default app;

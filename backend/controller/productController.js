@@ -23,9 +23,6 @@ export const getProductById = asyncHandler(async (req, res,next)=>{
     }
     else{
         res.status(404)
-            .json({
-                status: 'Failed',
-                product
-            })
+            throw new Error('Product not found')
     }
 })
