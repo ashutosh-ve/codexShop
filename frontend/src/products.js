@@ -1,0 +1,122 @@
+export const products=[
+  {
+    "_id": "1",
+    "name": "Wireless Mouse",
+    "price": 799,
+    image: '/images/airpods.jpg',
+    "brand": "Logitech",
+    "category": "Electronics",
+    "description": "Ergonomic wireless mouse with high precision tracking and long battery life.",
+    "countInStock": 25,
+    "rating": 4.5,
+    "numReviews": 120
+  },
+  {
+    "_id": "2",
+    "name": "Mechanical Keyboard",
+    "price": 3499,
+    image: '/images/alexa.jpg',
+    "brand": "Redragon",
+    "category": "Electronics",
+    "description": "Durable mechanical keyboard with RGB lighting and responsive keys for gaming and typing.",
+    "countInStock": 15,
+    "rating": 4.6,
+    "numReviews": 95
+  },
+  {
+    "_id": "3",
+    "name": "Headphones",
+    "price": 5999,
+    "brand": "Sony",
+    image: '/images/camera.jpg',
+    "category": "Electronics",
+    "description": "Premium over-ear headphones with active noise cancellation and immersive sound quality.",
+    "countInStock": 0,
+    "rating": 4.7,
+    "numReviews": 210
+  },
+  {
+    "_id": "4",
+    "name": "Smart Watch",
+    "price": 4499,
+    "brand": "Boat",
+    image: '/images/mouse.jpg',
+    "category": "Wearables",
+    "description": "Stylish smartwatch with fitness tracking, heart rate monitoring, and smartphone notifications.",
+    "countInStock": 30,
+    "rating": 4.3,
+    "numReviews": 150
+  },
+  {
+    "_id": "5",
+    "name": "Running Shoes",
+    "price": 2999,
+    "brand": "Nike",
+    image: '/images/phone.jpg',
+    "category": "Footwear",
+    "description": "Lightweight running shoes designed for comfort, durability, and enhanced performance.",
+    "countInStock": 20,
+    "rating": 4.4,
+    "numReviews": 85
+  },
+  {
+    "_id": "6",
+    "name": "Casual T-Shirt",
+    "price": 899,
+    "brand": "Puma",
+    image: '/images/playstation.jpg',
+    "category": "Clothing",
+    "description": "Comfortable cotton t-shirt suitable for daily wear with a modern fit.",
+    "countInStock": 40,
+    "rating": 4.2,
+    "numReviews": 60
+  },
+  {
+    "_id": "7",
+    "name": "Gaming Monitor",
+    "price": 12999,
+    "brand": "LG",
+    image: '/images/sample.jpg',
+    "category": "Electronics",
+    "description": "High refresh rate gaming monitor with vibrant display and ultra-fast response time.",
+    "countInStock": 8,
+    "rating": 4.6,
+    "numReviews": 70
+  },
+  {
+    "_id": "8",
+    "name": "Laptop Backpack",
+    "price": 1599,
+    image: '/images/sample.jpg',
+    "brand": "American Tourister",
+    "category": "Accessories",
+    "description": "Durable backpack with padded laptop compartment and multiple storage pockets.",
+    "countInStock": 35,
+    "rating": 4.5,
+    "numReviews": 110
+  },
+  {
+    "_id": "9",
+    "name": "Bluetooth Speaker",
+    "price": 2499,
+    image: '/images/airpods.jpg',
+    "brand": "JBL",
+    "category": "Electronics",
+    "description": "Portable Bluetooth speaker with powerful sound, deep bass, and long battery life.",
+    "countInStock": 18,
+    "rating": 4.6,
+    "numReviews": 140
+  },
+  {
+    "_id": "10",
+    "name": "Fitness Band",
+    "price": 1999,
+    image: '/images/airpods.jpg',
+    "brand": "Xiaomi",
+    "category": "Wearables",
+    "description": "Advanced fitness band with sleep tracking, step counter, and health monitoring features.",
+    "countInStock": 50,
+    "rating": 4.3,
+    "numReviews": 175
+  }
+]
