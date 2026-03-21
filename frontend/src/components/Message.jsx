@@ -5,7 +5,7 @@ const Message = ({variant, children}) => {
   return <Alert variant={variant}>{children}</Alert>
 };
 
-Message: defaultProps = {
+Message.defaultProps = {
     variant: 'info'
 }
 

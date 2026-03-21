@@ -18,7 +18,7 @@ const cartSlice = createSlice({
             if(existItem){
                 state.cartItems = state.cartItems.map((x)=> x._id === existItem._id ? item: x)
             }else{
-                state.ccartItems = [...state.cartItems, item];
+                state.cartItems = [...state.cartItems, item];
             }
         //cal item price and rest price
             state.itemsPrice = addDecimals(state.cartItems.reduce((acc,item) => acc+item.price * item.qty, 0));
