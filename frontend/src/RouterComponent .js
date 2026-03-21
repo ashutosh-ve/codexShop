@@ -7,8 +7,11 @@ import { ProductPage } from './screens/ProductPage'
 export const RouterComponent = () => {
   return (
    <Routes>
-              <Route path='/' element={<> <HomeScreen/> <ProductDesPage/> </>}/>
+              <Route path='/' element={<> <HomeScreen/>  </>}/>
               <Route path='/product/:id' element={<ProductPage/>}/>
-          </Routes>
+  </Routes>
   )
 }
+
+
+

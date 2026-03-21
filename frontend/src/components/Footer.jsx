@@ -6,7 +6,7 @@ export const Footer = () =>{
     const currentYear = new Date().getFullYear();
     
     return (
-        <foother>
+        <footer>
             <Container>
                 <Row>
                     <Col className='text-center py-3'>
@@ -14,6 +14,6 @@ export const Footer = () =>{
                     </Col>
                 </Row>
             </Container>
-        </foother>
+        </footer>
     )
 }   
