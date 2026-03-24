@@ -66,7 +66,7 @@ export const ProductPage = () => {
             <p className="product-stock">
               {product?.countInStock > 0 ? "In Stock" : "Out of Stock"}
             </p>
-              <div className="qty-selector">
+             {product?.countInStock>0?  <div className="qty-selector">
               <span>Qty: </span>
               <select 
                 value={qty} 
@@ -78,7 +78,7 @@ export const ProductPage = () => {
                   </option>
                 ))}
               </select>
-            </div>
+            </div>: '' }
 
             <button
               disabled={product?.countInStock === 0}
